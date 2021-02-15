@@ -21,19 +21,29 @@ https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-macos.htm#JSJ
 * You need to compile the code first to generate the class file. To do this, run: 
 ```
    javac -cp ".:./Jars/json-20201115.jar" CustomerFilter.java
-
 ```
 on your command line terminal. This creates the java class file.
 
 * Now you need to run this class file to run the application. To do this, run : 
 ```
    java -cp ".:./Jars/json-20201115.jar" CustomerFilter
-
 ```
 on your command line terminal. This starts the application.
 
 
 
 ### Tests
+A set of test cases has been written to the CustomerFilterTest.java file.
 
+To run these test cases, again you need to compile and run the CustomerFilterTest.java file.
 
+For this run these commands on your terminal,
+
+* first compile the file using:
+```
+   javac -cp ".:./Jars/json-20201115.jar.:./Jars/junit-4.13.1.jar" CustomerFilterTest.java
+```
+* then run using: 
+```
+   java -cp ".:./Jars/json-20201115.jar.:./Jars/junit-4.13.1.jar" CustomerFilterTest
+```
