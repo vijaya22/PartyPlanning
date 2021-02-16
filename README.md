@@ -17,6 +17,7 @@ https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-macos.htm#JSJ
 ### Running the Code
 
 * Go to the directory where you have cloned the repository using command line terminal.
+Move upto the src folder.
 
 * You need to compile the code first to generate the class file. To do this, run: 
 ```
