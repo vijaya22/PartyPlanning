@@ -41,9 +41,9 @@ For this run these commands on your terminal,
 
 * first compile the file using:
 ```
-   javac -cp ".:./Jars/json-20201115.jar.:./Jars/junit-4.13.1.jar" CustomerFilterTest.java
+   javac -cp Jars/*:. CustomerFilterTest.java
 ```
 * then run using: 
 ```
-   java -cp ".:./Jars/json-20201115.jar.:./Jars/junit-4.13.1.jar" CustomerFilterTest
+   java -cp Jars/*:. org.junit.runner.JUnitCore CustomerFilterTest
 ```
